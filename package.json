@@ -1,0 +1,19 @@
+{
+  "name": "word-select",
+  "version": "0.0.0",
+  "description": "Module to select the nth word from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cameronwolf@github.com/cameronwolf/word-select.git"
+  },
+  "author": "Cameron Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronwolf/word-select/issues"
+  },
+  "homepage": "https://github.com/cameronwolf/word-select#readme"
+}
