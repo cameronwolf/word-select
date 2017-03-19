@@ -28,5 +28,8 @@ describe('word-select', function(){
 	it('should return false when the input is not a string', function() {
 		expect( wordSelect.select(1, 2)).to.be.false;
 	});
+	it('should return the 2nd word, even with extra whitespaces', function() {
+		expect( wordSelect.select('      First         second      third   ', 2)).to.equal('second');
+	});
 
 });
