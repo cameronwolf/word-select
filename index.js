@@ -29,12 +29,12 @@ const select = function (input, num){
 	}
 	else {
 		const words = input.split(' ');
-
+		removeWhiteSpace(words);
+		
 		if (words.length < num){
 			return false;
 		}
 		else {
-			removeWhiteSpace(words);
 			return words[num - 1];
 		}
 	}

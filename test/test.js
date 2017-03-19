@@ -25,6 +25,9 @@ describe('word-select', function(){
 	it('should return false if the nth word does not exist', function() {
 		expect( wordSelect.select('First second third', 4)).to.be.false;
 	});
+	it('should return false if the nth word does not exist, even with extra whitespaces', function() {
+		expect( wordSelect.select('First  second third', 4)).to.be.false;
+	});
 	it('should return false when the input is not a string', function() {
 		expect( wordSelect.select(1, 2)).to.be.false;
 	});
